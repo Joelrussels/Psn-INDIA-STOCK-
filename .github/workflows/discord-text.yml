@@ -19,6 +19,6 @@ jobs:
           curl --fail-with-body --silent --show-error \
             -H "Content-Type: application/json" \
             --data '{"content":"✅ PSN India stock monitor: Discord test successful. Cloud notifications are being configured."}' \
-"$DISCORD_WEBHOOK_URL"
+            "$DISCORD_WEBHOOK_URL"
 
-echo "Discord test request completed."
+          echo "Discord test request completed."
